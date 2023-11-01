@@ -1,7 +1,13 @@
 export default function Contact() {
   return (
-    <div className="about-me">
+    <body className="about-me">
     <h2 className="page-header">Contact Information</h2>
-</div>
+    <a href="https://github.com/apatton33">
+      <button>
+        GitHub
+      </button>
+    </a>
+</body>
   );
 }
+

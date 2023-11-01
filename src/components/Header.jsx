@@ -1,4 +1,4 @@
-
+import Navigation from "./NavTabs";
 
 export default function Header() {
 
@@ -6,8 +6,9 @@ export default function Header() {
         <header className="header">
             <div className="header-text">
                 <h1 className="header-name">Adrian <span className="Patton">Patton </span></h1>
-               
+        
             </div>
+            <Navigation />
         </header>
     );
 }

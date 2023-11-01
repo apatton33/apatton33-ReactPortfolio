@@ -1,0 +1,7 @@
+.Title {
+    display: flex;
+    flex-direction: column;
+    column-count: 1;
+    align-items: center;
+    margin: 15em 15em 0em 15em;
+}
