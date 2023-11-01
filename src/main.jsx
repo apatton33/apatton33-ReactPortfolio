@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import './index.css'
 import App from './App';
 import Error from './pages/Error';
 import Home from './pages/Home';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import Blog from './pages/Blog';
+import Contact from './pages/Contact/Contact';
+import About from './pages/About/About';
+import Portfolio from './pages/Portfolio/Portfolio';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -27,8 +27,8 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: '/Blog',
-        element: <Blog />,
+        path: '/Portfolio',
+        element: <Portfolio />,
       },
       {
         path: '/Contact',

@@ -1,0 +1,12 @@
+
+  .page-header {
+    font-size: 3em;
+  }
+  
+  @media screen and (max-width: 900px){
+      button {
+        width: 50%;
+        text-align: center;
+        color: white;
+      }
+  }
