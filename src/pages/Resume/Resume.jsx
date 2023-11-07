@@ -1,6 +1,5 @@
-
 import './style.css'
-export default function Portfolio() {
+export default function Resume() {
   return (
     
       <div className="Portfolio-info">
@@ -19,6 +18,3 @@ export default function Portfolio() {
      </div>
   );
 }
-
-
-  
