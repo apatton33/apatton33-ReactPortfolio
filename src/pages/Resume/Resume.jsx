@@ -1,20 +1,11 @@
 import './style.css'
-export default function Resume() {
+
+export default function Home() {
   return (
-    
-      <div className="Portfolio-info">
-    <h1 className="page-header">Projects</h1>
-    
-    <a href="https://secure-gorge-43395-b510f5266de9.herokuapp.com/">
-      <button>
-        Grocery store Managment System
-      </button>
-    </a>
-    <a href="https://bertisjoey.github.io/Plant-Protector">
-      <button>
-        Plant Protector Web App
-      </button>
-    </a>
-     </div>
+    <div className="Title">
+    <h2 className="page-header">Full Stack web Developer </h2>
+    <h3 className="description">from Kalamazoo, Michigan </h3>
+</div>
   );
 }
+

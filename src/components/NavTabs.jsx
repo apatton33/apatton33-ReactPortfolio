@@ -1,4 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
@@ -6,8 +9,11 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
+    <Container>
     <ul className="nav nav-tabs">
+    <Nav className="justify-content-center">
       <li className="nav-item">
+        
         <Link
           to="/About"
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -43,7 +49,9 @@ function NavTabs() {
           Resume
         </Link>
       </li>
+      </Nav>
     </ul>
+    </Container>
   );
 }
 
